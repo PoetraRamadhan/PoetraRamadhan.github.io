@@ -1,11 +1,51 @@
+/* Settings */
+
 * {
-    background-color: black;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.pfp {
-    width: 440px;
+body {
+    background-color: #2a2b2e;
+    color: #fff;
+}
+
+/* HEADER */
+
+header {
+    background-color: #2c2d31;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* SECTION */
+
+section figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section figure img {
+    margin: 40px 0;
+    width: 200px;
     border-radius: 50%;
-    padding: auto;
+}
+
+section figure figcaption {
+    padding: 30px;
+    font-size: large;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 70px 0 0 0;
+    text-align: center;
+    font-size: large;
 }
